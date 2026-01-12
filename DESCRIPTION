@@ -7,11 +7,11 @@ Authors@R: c(
     person("Lei", "Song", role = c("cre", "aut"),
             email = "lei.song@rutgers.edu", 
             comment = c(ORCID = "0000-0002-4371-1473")),
-	person("Lyndon D.", "Estes", role = "ctb",   
+	person("Lyndon D.", "Estes", role = c("cre", "aut"),
 	        comment = c(ORCID = "0000-0002-9358-816X")))
 Description: This package contains the course materials for Spatial 
     Data Analysis with R. 
-License: What license is it under?
+License: Apache-2.0 license
 Encoding: UTF-8
 LazyData: true
 Depends:
