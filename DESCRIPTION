@@ -1,0 +1,34 @@
+Package: sdadata
+Type: Package
+Title: An auxiliary package for course Spatial Data Analysis with R
+Version: 0.1.0
+Maintainer: Lei Song <lei.song@rutgers.edu>
+Authors@R: c(
+    person("Lei", "Song", role = c("cre", "aut"),
+            email = "lei.song@rutgers.edu", 
+            comment = c(ORCID = "0000-0002-4371-1473")),
+	person("Lyndon D.", "Estes", role = "ctb",   
+	        comment = c(ORCID = "0000-0002-9358-816X")))
+Description: This package contains the course materials for Spatial 
+    Data Analysis with R. 
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Depends:
+    terra,
+    sf,
+    tidyverse,
+    R (>= 3.3.6)
+Imports:
+    cowplot,
+    lwgeom
+Suggests: 
+    kableExtra,
+    knitr, 
+    prettydoc,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/SSELP/sdadata
+BugReports: https://github.com/SSELP/sdadata/issues/
+LazyLoad: yes
+RoxygenNote: 7.3.1
