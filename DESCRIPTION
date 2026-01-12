@@ -7,11 +7,11 @@ Authors@R: c(
     person("Lei", "Song", role = c("cre", "aut"),
             email = "lei.song@rutgers.edu", 
             comment = c(ORCID = "0000-0002-4371-1473")),
-	person("Lyndon D.", "Estes", role = c("cre", "aut"),
+	person("Lyndon D.", "Estes", role = c("aut"),
 	        comment = c(ORCID = "0000-0002-9358-816X")))
 Description: This package contains the course materials for Spatial 
     Data Analysis with R. 
-License: Apache-2.0 license
+License: Apache License (>= 2)
 Encoding: UTF-8
 LazyData: true
 Depends:
@@ -31,4 +31,4 @@ VignetteBuilder: knitr
 URL: https://github.com/SSELP/sdadata
 BugReports: https://github.com/SSELP/sdadata/issues/
 LazyLoad: yes
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.3
