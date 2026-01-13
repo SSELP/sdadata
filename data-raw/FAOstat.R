@@ -1,4 +1,4 @@
-## code to prepare `FAOstat` dataset
+## code to prepare `FAOSTAT` dataset
 # Load libraries
 library(here)
 library(dplyr)
